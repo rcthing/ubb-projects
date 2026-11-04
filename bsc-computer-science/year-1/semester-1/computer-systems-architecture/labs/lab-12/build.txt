@@ -1,0 +1,4 @@
+cd C:\Users\redni\Desktop\ubb\ASC\lab 12
+nasm lab12modul.asm -fwin32 -o lab12modul.obj
+cl lab12main.c /link lab12modul.obj
+lab12main.exe
